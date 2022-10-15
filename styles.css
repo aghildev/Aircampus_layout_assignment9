@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* overflow-y:hidden; */
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-section{
+    width:100vw;
+    height:50vh;
+    background-color:#c15355;
+    color:#fff;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:18vh;
+   
+    position:fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background-color:#c15355;
+    z-index:997;
+}
+.left h3{
+    font-size:1.5rem;
+}
+
+.nav-items{
+    display: flex;
+}
+.nav-items li{
+    list-style: none;
+    padding:2rem;
+}
+.topic{
+    margin:7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing:1.2px;
+    line-height:1.4;
+    padding-top:4rem
+    
+}
+
+.up-arrow{
+        position:fixed;
+        right:15px;
+        bottom:15px;
+        z-index:996;
+        background:grey;
+        border: 3px solid #c15355;
+        width:45px;
+        height:45px;
+        border-radius:50px; 
+        padding:.7em;
+        color:black;
+}
+
+.first-section{
+    display: flex;
+    width:80vw;
+    margin:5rem auto;
+    gap: 1.2rem;
+    line-height:1.6;
+    
+}
+.colored{
+    color:#c15355;
+}
+.first-section p{
+    color:gray;
+}
+
+.cool_pic{
+    height:100px;
+    width:100px;
+    object-fit:cover;
+    border-radius:50%;
+}
+.second-section{
+    background-color: #c15355;
+    height:70vh;
+    width:100vw;
+}
+
+.air_campus_logo{
+   max-height:30px;
+   max-width:80px;
+}
+
+.second_section_header{
+    text-align:center;
+    padding-top:2rem;
+    color:#fff
+
+}
+
+.cool_container{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   gap:20px;
+   margin-top: 3rem;
+   
+}
+.cool_sep_container{
+    border:1px solid #fff;
+    position:relative;
+    padding:3em;
+    text-align:center;
+    color:#fff;
+}
+
+
+.air-campus{
+    display: flex;
+    flex-direction: column;
+    border-radius: .25rem;
+    border:1px solid rgba(0,0,0,.125);
+    background-color: #fff;
+    padding:10px;
+    position:absolute;
+    bottom:-20px;
+    right:0%;
+}
+.third-section-header{
+    text-align:center;
+    margin-top: 3rem;
+    margin-bottom:4rem;
+}
+.third-section-imgs{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    
+    align-items: center;
+    margin-bottom:3.5rem
+}
+
+.tent_pic{
+    width:370px;
+    height:250px;
+    object-fit:cover;
+}
+
+.third-sec-first-img,.third-sec-last-img{
+    width:30vw;
+}
+
+.last-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-top:1rem;
+}
+
+.social-networks i{
+    color:#c15355;
+    padding:0 0.1em;
+   
+}
+.copyright{
+    color:gray;
+}
+
+.btn{
+    font-size:inherit;
+    padding:.2em .5em;
+    outline:none;
+    background-color: #c15355;
+    border-radius:.2em;
+    color:#fff;
+    border-color: #c15355;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow:0 0 5px 0 #c15355;
+    background-color: #c15359;
+}
